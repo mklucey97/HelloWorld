@@ -1,0 +1,25 @@
+# Unignore specific file extensions
+!*.html
+!*.css
+!*.js
+!*.php
+
+# Unignore directories
+!css/
+!images/
+!libraries/
+!js/
+
+# Unignore image file extensions
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!*.svg
+!*.webp
+!*.bmp
+!*.tiff
+!*.ico
+
+# Ensure .gitignore itself is not ignored
+!.gitignore
