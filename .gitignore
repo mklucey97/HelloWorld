@@ -1,25 +1,23 @@
-# Unignore specific file extensions
+# Unignore .gitignore itself
+!.gitignore
+
+# Unignore HTML and CSS files
 !*.html
 !*.css
-!*.js
-!*.php
 
-# Unignore directories
+# Unignore the css/ directory
 !css/
-!images/
-!libraries/
-!js/
 
-# Unignore image file extensions
-!*.png
+# Unignore the images/ directory
+!images/
+
+# Ignore common image file extensions
 !*.jpg
 !*.jpeg
+!*.png
 !*.gif
-!*.svg
-!*.webp
 !*.bmp
 !*.tiff
+!*.svg
+!*.webp
 !*.ico
-
-# Ensure .gitignore itself is not ignored
-!.gitignore
