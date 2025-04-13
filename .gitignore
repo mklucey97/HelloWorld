@@ -1,17 +1,21 @@
 # Unignore .gitignore itself
 !.gitignore
 
-# Unignore HTML and CSS files
+# Unignore HTML files
 !*.html
+
+# Unignore CSS files
 !*.css
 
-# Unignore the css/ directory
+# Unignore the css/ directory and its contents
 !css/
+!css/**
 
-# Unignore the images/ directory
+# Unignore the images/ directory and its contents
 !images/
+!images/**
 
-# Ignore common image file extensions
+# Unignore common image file extensions
 !*.jpg
 !*.jpeg
 !*.png
