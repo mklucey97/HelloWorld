@@ -3,15 +3,38 @@
    Description: Main stylesheet for index.html
    Author: Mary Lucey
    Created: 4-19-25
-  
-   *******************************************************/
- 
- body {
-background-color: pink;
-font-family: Comic Sans MS, sans-serif;
-font-size: 24px;
+************************************************************/
+
+body {
+  background-color: pink;
+  font-family: "Comic Sans MS", sans-serif;
+  font-size: 24px;
 }
 
 .text-center {
   text-align: center;
+}
+
+/* Tablet size tweaks (768px and up) */
+@media (min-width: 768px) {
+  body {
+    background-color: lightpink; /* Slightly lighter shade for tablets */
+    font-size: 26px; /* Slightly bigger text */
+  }
+}
+
+/* Desktop size tweaks (1024px and up) */
+@media (min-width: 1024px) {
+  body {
+    background-color: lavenderblush; /* Softer background for large screens */
+    font-size: 28px; /* Even bigger text */
+  }
+}
+
+/* Extra large desktop (1600px and up) */
+@media (min-width: 1600px) {
+  body {
+    background-color: mistyrose; /* Another soft color for ultra-wide screens */
+    font-size: 30px;
+  }
 }
